@@ -1,0 +1,220 @@
+export const companies = [
+  {
+    id: 1,
+    name: 'Capgemini',
+    role: 'Software Engineer',
+    package: '₹18-24 LPA',
+    skills: ['Java', 'Spring Boot', 'SQL'],
+    hiringProcess: [
+      { step: 1, title: 'Online Assessment', duration: '2 hours' },
+      { step: 2, title: 'Technical Interview', duration: '1 hour' },
+      { step: 3, title: 'HR Round', duration: '30 mins' },
+    ],
+    interviewQuestions: [
+      'Explain polymorphism with examples',
+      'Design a cache system',
+      'Write a function to reverse a binary tree',
+      'What is SOLID principles?',
+      'Explain microservices architecture',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Infosys',
+    role: 'Junior Developer',
+    package: '₹15-20 LPA',
+    skills: ['Python', 'JavaScript', 'React'],
+    hiringProcess: [
+      { step: 1, title: 'Aptitude Test', duration: '1 hour' },
+      { step: 2, title: 'Programming Round', duration: '1.5 hours' },
+      { step: 3, title: 'Technical Interview', duration: '45 mins' },
+      { step: 4, title: 'HR Round', duration: '30 mins' },
+    ],
+    interviewQuestions: [
+      'What are hooks in React?',
+      'Explain async/await in JavaScript',
+      'Design a URL shortener',
+      'What is REST API?',
+      'Explain dependency injection',
+    ],
+  },
+  {
+    id: 3,
+    name: 'TCS',
+    role: 'Software Developer',
+    package: '₹12-18 LPA',
+    skills: ['C++', 'Data Structures', 'Algorithms'],
+    hiringProcess: [
+      { step: 1, title: 'Online Test', duration: '2 hours' },
+      { step: 2, title: 'Technical Interview', duration: '1 hour' },
+      { step: 3, title: 'Managerial Round', duration: '45 mins' },
+    ],
+    interviewQuestions: [
+      'Implement quicksort algorithm',
+      'Find longest substring without repeating characters',
+      'Design a car rental system',
+      'Explain TCP vs UDP',
+      'What is multithreading?',
+    ],
+  },
+  {
+    id: 4,
+    name: 'Wipro',
+    role: 'Associate Developer',
+    package: '₹14-19 LPA',
+    skills: ['Java', 'SQL', 'Linux'],
+    hiringProcess: [
+      { step: 1, title: 'Online Assessment', duration: '2.5 hours' },
+      { step: 2, title: 'Technical Interview', duration: '1 hour' },
+      { step: 3, title: 'HR Round', duration: '30 mins' },
+    ],
+    interviewQuestions: [
+      'Explain collections framework in Java',
+      'Difference between ArrayList and LinkedList',
+      'Design a parking lot system',
+      'What is garbage collection?',
+      'Explain indexing in databases',
+    ],
+  },
+  {
+    id: 5,
+    name: 'Accenture',
+    role: 'Technology Analyst',
+    package: '₹16-22 LPA',
+    skills: ['Python', 'Cloud AWS', 'DevOps'],
+    hiringProcess: [
+      { step: 1, title: 'Written Test', duration: '1 hour' },
+      { step: 2, title: 'Technical Interview', duration: '1 hour' },
+      { step: 3, title: 'HR Interview', duration: '45 mins' },
+    ],
+    interviewQuestions: [
+      'What are microservices?',
+      'Explain Docker and Kubernetes',
+      'Design a distributed system',
+      'What is CI/CD pipeline?',
+      'Explain AWS services',
+    ],
+  },
+  {
+    id: 6,
+    name: 'HCL',
+    role: 'Trainee Engineer',
+    package: '₹13-17 LPA',
+    skills: ['JavaScript', 'Node.js', 'MongoDB'],
+    hiringProcess: [
+      { step: 1, title: 'Aptitude Test', duration: '1.5 hours' },
+      { step: 2, title: 'Technical Round', duration: '1 hour' },
+      { step: 3, title: 'HR Round', duration: '30 mins' },
+    ],
+    interviewQuestions: [
+      'What is Node.js and how does it work?',
+      'Explain event loop in JavaScript',
+      'Design a chat application',
+      'What is callback hell?',
+      'Explain CORS',
+    ],
+  },
+];
+
+export const mentors = [
+  {
+    id: 1,
+    name: 'Rahul Sharma',
+    company: 'Google',
+    role: 'Senior Software Engineer',
+    expertise: ['System Design', 'Data Structures'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul',
+    linkedIn: 'https://linkedin.com',
+  },
+  {
+    id: 2,
+    name: 'Priya Gupta',
+    company: 'Microsoft',
+    role: 'SDE 2',
+    expertise: ['Web Development', 'React'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Priya',
+    linkedIn: 'https://linkedin.com',
+  },
+  {
+    id: 3,
+    name: 'Amit Patel',
+    company: 'Amazon',
+    role: 'Senior Engineer',
+    expertise: ['AWS', 'Backend'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Amit',
+    linkedIn: 'https://linkedin.com',
+  },
+  {
+    id: 4,
+    name: 'Neha Singh',
+    company: 'Apple',
+    role: 'iOS Developer',
+    expertise: ['iOS Development', 'Swift'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Neha',
+    linkedIn: 'https://linkedin.com',
+  },
+  {
+    id: 5,
+    name: 'Arjun Verma',
+    company: 'Meta',
+    role: 'Software Engineer',
+    expertise: ['Machine Learning', 'Python'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Arjun',
+    linkedIn: 'https://linkedin.com',
+  },
+  {
+    id: 6,
+    name: 'Sneha Desai',
+    company: 'Tesla',
+    role: 'Full Stack Engineer',
+    expertise: ['Full Stack', 'DevOps'],
+    imageUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha',
+    linkedIn: 'https://linkedin.com',
+  },
+];
+
+export const dashboardStats = {
+  totalInterviews: 12,
+  completedInterviews: 8,
+  progressPercentage: 67,
+  companiesPrepared: 5,
+  upcomingInterviews: [
+    { company: 'Capgemini', date: '2024-04-15', role: 'Software Engineer' },
+    { company: 'Infosys', date: '2024-04-20', role: 'Junior Developer' },
+  ],
+};
+
+export const mockChatHistory = [
+  {
+    id: 1,
+    type: 'ai',
+    message: 'Hello! I\'m your AI interview mentor. Today, we\'re going to practice a system design interview question. Are you ready?',
+    timestamp: new Date(Date.now() - 5 * 60000),
+  },
+  {
+    id: 2,
+    type: 'user',
+    message: 'Yes, I\'m ready!',
+    timestamp: new Date(Date.now() - 4 * 60000),
+  },
+  {
+    id: 3,
+    type: 'ai',
+    message: 'Great! Here\'s the question: Design a URL shortening service like bit.ly. How would you approach this?',
+    timestamp: new Date(Date.now() - 3 * 60000),
+  },
+  {
+    id: 4,
+    type: 'user',
+    message: 'I would need a database to store the mapping between long URLs and short codes. I would generate unique short codes using hashing.',
+    timestamp: new Date(Date.now() - 2 * 60000),
+  },
+];
+
+export const roadmapSteps = [
+  { id: 1, title: 'Data Structures', completed: true, progress: 100 },
+  { id: 2, title: 'Algorithms', completed: true, progress: 100 },
+  { id: 3, title: 'System Design', completed: false, progress: 60 },
+  { id: 4, title: 'Database Design', completed: false, progress: 40 },
+  { id: 5, title: 'Behavioral Round', completed: false, progress: 20 },
+];
